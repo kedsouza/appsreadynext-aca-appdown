@@ -1,10 +1,9 @@
 Demo:
 
 - Build both images with seperate tags, push to ACR / Dockerhub.
+
+
 ```docker build -t non-working -f Broken.Dockerfile ```
-
-
-
 
 ```docker build -t working -f Fixed.Dockerfile ```
 
